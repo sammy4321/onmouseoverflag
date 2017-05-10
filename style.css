@@ -1,0 +1,14 @@
+body{
+	background-color: #ea72f2;
+}
+#mainbod{
+	position: absolute;
+	left: 17%;
+	top:25%;
+}
+#countrynames{
+	position: relative;
+	left: 42%;
+	text-align: center;
+
+}
