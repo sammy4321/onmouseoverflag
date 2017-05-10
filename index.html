@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flags</title>
+</head>
+<body>
+<script type="text/javascript">
+	function mouseOverIndia(){
+		document.getElementById("countrynames").value='India';
+	}
+	function mouseOverUs(){
+		document.getElementById("countrynames").value='United States Of America';
+	}
+	function mouseOverSwit(){
+		document.getElementById("countrynames").value='Switzerland';
+	}
+	function mouseOut(){
+		document.getElementById("countrynames").value='';
+	}
+</script>
+<img src="indianflag.png" alt="Mountain View" style="width:304px;height:228px;" onmouseover="mouseOverIndia()" onmouseout="mouseOut()">
+<img src="switzerlandflag.gif" alt="Mountain View" style="width:304px;height:228px;" onmouseover="mouseOverSwit()" onmouseout="mouseOut()">
+<img src="usflag.png" alt="Mountain View" style="width:304px;height:228px;" onmouseover="mouseOverUs()" onmouseout="mouseOut()">
+<form action="#" method="post">
+	<input type="text" name="countrynames" id="countrynames" size=21>
+
+
+
+</form>
+</body>
+</html>
